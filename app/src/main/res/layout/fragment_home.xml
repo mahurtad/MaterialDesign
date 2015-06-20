@@ -3,29 +3,49 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="androidhive.info.materialdesign.activity.HomeFragment">
+    tools:context="androidhive.info.materialdesign.activity.HomeFragment"
+    android:background="@drawable/ic_font2">
 
 
-    <TextView
-        android:id="@+id/label"
+    <Button
+        android:layout_width="237dp"
+        android:layout_height="wrap_content"
+        android:text="@string/menu_jugar"
+        android:id="@+id/btnJugar"
+        android:onClick="irJugar"
+        android:layout_above="@+id/btnLista"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp" />
+
+    <Button
+        android:layout_width="237dp"
+        android:layout_height="wrap_content"
+        android:text="@string/menu_Otro"
+        android:id="@+id/btnLista"
+        android:onClick="galeriaApp"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/btnJugar"
+        android:layout_alignStart="@+id/btnJugar" />
+
+    <Button
+        android:layout_width="237dp"
+        android:layout_height="wrap_content"
+        android:text="@string/menu_acerca"
+        android:id="@+id/btnAcerca"
+        android:layout_marginTop="52dp"
+        android:onClick="aboutApp"
+        android:layout_below="@+id/btnLista"
+        android:layout_alignLeft="@+id/btnLista"
+        android:layout_alignStart="@+id/btnLista" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:src="@drawable/ic_banner"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="100dp"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center_horizontal"
-        android:textSize="45dp"
-        android:text="HOME"
-        android:textStyle="bold"/>
-
-    <TextView
-        android:layout_below="@id/label"
-        android:layout_centerInParent="true"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:textSize="12dp"
-        android:layout_marginTop="10dp"
-        android:gravity="center_horizontal"
-        android:text="Edit fragment_friends.xml to change the appearance" />
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/btnJugar" />
 
 </RelativeLayout>
 

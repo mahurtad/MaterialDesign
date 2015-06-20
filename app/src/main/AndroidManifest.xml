@@ -10,7 +10,6 @@
         <activity
             android:name=".activity.MainActivity"
             android:label="@string/app_name" >
-
         </activity>
         <activity
             android:name=".activity.SplashActivity"
@@ -21,7 +20,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
+        <activity
+            android:name=".activity.FragmentActivity"
+            android:label="@string/title_activity_fragment" >
+        </activity>
+        <activity
+            android:name=".activity.JuegoFragment"
+            android:label="@string/title_activity_juego_fragment" >
+        </activity>
     </application>
 
 </manifest>
