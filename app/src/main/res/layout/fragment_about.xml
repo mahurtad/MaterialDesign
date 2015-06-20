@@ -150,6 +150,7 @@
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:text="Todos los derechos reservados : "
             android:id="@+id/textView5"
+            android:textColor="#ffffffff"
             android:textSize="14dp"
             android:textStyle="bold"
             android:layout_alignParentBottom="true"

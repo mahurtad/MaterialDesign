@@ -13,16 +13,15 @@
         android:text="@string/menu_jugar"
         android:id="@+id/btnJugar"
         android:onClick="irJugar"
-        android:layout_above="@+id/btnLista"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="50dp" />
+        android:layout_above="@+id/btnImagenes"
+        android:layout_centerHorizontal="true" />
 
     <Button
         android:layout_width="237dp"
         android:layout_height="wrap_content"
-        android:text="@string/menu_Otro"
-        android:id="@+id/btnLista"
-        android:onClick="galeriaApp"
+        android:text="@string/menu_imagenes"
+        android:id="@+id/btnImagenes"
+        android:onClick="imagenesApp"
         android:layout_centerVertical="true"
         android:layout_alignLeft="@+id/btnJugar"
         android:layout_alignStart="@+id/btnJugar" />
@@ -30,13 +29,22 @@
     <Button
         android:layout_width="237dp"
         android:layout_height="wrap_content"
+        android:text="@string/menu_videos"
+        android:id="@+id/btnVideos"
+        android:onClick="videosApp"
+        android:layout_below="@+id/btnImagenes"
+        android:layout_alignLeft="@+id/btnImagenes"
+        android:layout_alignStart="@+id/btnImagenes" />
+
+    <Button
+        android:layout_width="237dp"
+        android:layout_height="wrap_content"
         android:text="@string/menu_acerca"
         android:id="@+id/btnAcerca"
-        android:layout_marginTop="52dp"
         android:onClick="aboutApp"
-        android:layout_below="@+id/btnLista"
-        android:layout_alignLeft="@+id/btnLista"
-        android:layout_alignStart="@+id/btnLista" />
+        android:layout_below="@+id/btnVideos"
+        android:layout_alignLeft="@+id/btnVideos"
+        android:layout_alignStart="@+id/btnVideos" />
 
     <ImageView
         android:layout_width="wrap_content"

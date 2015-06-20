@@ -1,10 +1,11 @@
 <resources>
 
     <string name="hello_world">Hello world!</string>
-    <string name="menu_titulo">Adivina el Pokemon</string>
-    <string name="menu_jugar">Jugar</string>
-    <string name="menu_acerca">Acerca de</string>
-    <string name="menu_Otro">Lista de Pokemones</string>
+    <string name="menu_titulo"> Pokemon</string>
+    <string name="menu_jugar">Adivina el pokemon</string>
+    <string name="menu_imagenes">Galeria de Imagenes</string>
+    <string name="menu_videos">Galeria de Videos</string>
+    <string name="menu_acerca">Acerca de </string>
 
     <string name="title_activity_pokemones">PokemonesActivity</string>
     <string name="title_activity_about">AboutActivity</string>

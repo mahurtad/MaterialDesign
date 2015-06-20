@@ -1,7 +1,8 @@
 package androidhive.info.materialdesign.activity;
 
-
+import android.view.View.OnClickListener;
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -32,6 +33,7 @@ public class HomeFragment extends Fragment {
         // Inflate the layout for this fragment
         return rootView;
     }
+
 
     @Override
     public void onAttach(Activity activity) {
