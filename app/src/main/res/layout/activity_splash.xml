@@ -11,7 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/manito"
-        android:src="@drawable/load1"
+        android:src="@mipmap/ic_load1"
         android:layout_marginBottom="108dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true" />
