@@ -13,7 +13,6 @@ import androidhive.info.materialdesign.R;
 
 
 public class HomeFragment extends Fragment {
-
     public HomeFragment() {
         // Required empty public constructor
     }
